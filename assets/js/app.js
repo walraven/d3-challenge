@@ -26,7 +26,7 @@ const chartGroup = svg.append('g')
 
 
 //read the data
-d3.csv('/assets/data/data.csv').then(function(data) {
+d3.csv('assets/data/data.csv').then(function(data) {
 
     //create scatter plot between two variables
     //x variables: poverty rate, median age, median hh income
